@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maket</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 100px 620px 1564px 168px;
+            height: 2592px;
+            width: 1440px;
+        }
+
+        .header {
+            display: flex;
+            background-color: #E1EDE6;
+            justify-content: space-between;
+        }
+
+        .head-1 {
+            display: block;
+            padding-left: 165px;
+            padding-top: 35px;
+            color: #598D66;
+            font-size: 15px;
+            font-weight: 1000;
+        }
+
+        .head-2 {
+            display: flex;
+            background-color: #E1EDE6;
+            width: 472px;
+            height: 24px;
+            justify-content: space-between;
+            margin-right: 165px;
+            margin-top: 35px;
+            font-size: 18px;
+            font-weight: 20;
+        }
+
+        .he {
+            display: flex;
+            align-self: center;
+        }
+
+        .sidebar {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: 540px 540px;
+            margin-left: 165px;
+            margin-right: 165px;
+        }
+
+        .cell {
+            display: grid;
+        }
+
+        .cell-2 {
+            display: grid;
+            height: 331px;
+            align-self: center;
+            grid-template-rows: 132px 54px 65px;
+        }
+
+        .c-1 {
+            display: block;
+            height: 132px;
+            margin: 0px;
+            font-size: 60px;
+        }
+
+        .span {
+            font-size: 60px;
+            color: #598D66;
+        }
+
+        .c-2 {
+            display: block;
+            height: 54px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+            color: #86928B;
+            font-size: 20px;
+        }
+
+        .c-3 {
+            display: grid;
+            position: relative;
+            height: 65px;
+            width: 225px;
+            border: 1px solid #598D66;
+            color: #598D66;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 80px;
+            margin-bottom: 0px;
+            align-items: center;
+        }
+
+        .main {
+            margin-top: 70px;
+            height: 1564px;
+            /* margin: 0px; */
+            padding: 0px;
+        }
+
+        .repr {
+            margin-left: 165px;
+            font-size: 40px;
+            width: 1110px;
+            height: 44px;
+        }
+
+        .gallery {
+            display: grid;
+            margin-left: 165px;
+            margin-top: 30px;
+            width: 1110px;
+            height: 1490px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 30px;
+        }
+
+        .paint {
+            text-align: center;
+            background-color: #E1EDE6;
+        }
+
+        .footer {
+            width: 1440px;
+            height: 168px;
+            margin-top: 140px;
+            background-color: #E1EDE6;
+        }
+
+        .foot-1 {
+            padding-left: 165px;
+            font-size: 25px;
+            margin: 0px;
+            margin-top: 30px;
+        }
+
+        .foot-2 {
+            padding-left: 165px;
+            font-size: 20px;
+            color: #86928B;
+            margin: 0px;
+        }
+
+        .f-1 {
+            padding-left: 350px;
+            margin-top: -150px;
+        }
+
+        .f-2 {
+            padding-left: 550px;
+            margin-top: -125px;
+        }
+
+        .f-3 {
+            padding-left: 710px;
+            margin-top: -105px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="head-1">
+                <img src="./images/Star_1.png" alt="star" width="35" height="35"> Ink. House
+            </div>
+            <div class="head-2">
+                <p class="he">Репродукции</p>
+                <p class="he">Новинки</p>
+                <p class="he">О нас</p>
+                <p class="he"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3_994)">
+                            <path
+                                d="M9.25001 21.1667C9.75627 21.1667 10.1667 20.7563 10.1667 20.25C10.1667 19.7438 9.75627 19.3334 9.25001 19.3334C8.74375 19.3334 8.33334 19.7438 8.33334 20.25C8.33334 20.7563 8.74375 21.1667 9.25001 21.1667Z"
+                                stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M19.3333 21.1667C19.8396 21.1667 20.25 20.7563 20.25 20.25C20.25 19.7438 19.8396 19.3334 19.3333 19.3334C18.8271 19.3334 18.4167 19.7438 18.4167 20.25C18.4167 20.7563 18.8271 21.1667 19.3333 21.1667Z"
+                                stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M1.91666 1.91663H5.58332L8.03999 14.1908C8.12381 14.6128 8.35341 14.9919 8.68857 15.2617C9.02374 15.5315 9.44313 15.6749 9.87332 15.6666H18.7833C19.2135 15.6749 19.6329 15.5315 19.9681 15.2617C20.3032 14.9919 20.5328 14.6128 20.6167 14.1908L22.0833 6.49996H6.49999"
+                                stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3_994">
+                                <rect width="22" height="22" fill="white" transform="translate(1 1)" />
+                            </clipPath>
+                        </defs>
+                    </svg></p>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <div class="cell cell-1"> <img src="./images/Layer_1.png" alt="Layer" width="540" height="621">
+            </div>
+            <div class="cell cell-2">
+                <p class="c-1">Реплики картин <br> от <span class="span">Ink. House</span></p>
+                <p class="c-2">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения,
+                    доступные цены.</p>
+                <p class="c-3">Продукция</p>
+            </div>
+        </aside>
+        <main class="main"> <span class="repr">Репродукции</span>
+            <div class="gallery">
+                <div class="paint"> <img src="./images/p1.jpg" alt="photo-1" width="310" height="422"></div>
+                <div class="paint"> <img src="./images/p2.jpg" alt="photo-2" width="310" height="422"></div>
+                <div class="paint"> <img src="./images/p3.jpg" alt="photo-3" width="310" height="422"></div>
+                <div class="paint"> <img src="./images/p4.jpg" alt="photo-4" width="310" height="422"></div>
+                <div class="paint"> <img src="./images/p5.jpg" alt="photo-5" width="310" height="422"></div>
+                <div class="paint"> <img src="./images/p6.jpg" alt="photo-6" width="310" height="422"></div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="head-1">
+                <img src="./images/Star_1.png" alt="star" width="35" height="35"> Ink. House
+            </div>
+            <p class="foot-1">+7 (999) 543-54-54</p>
+            <p class="foot-2">Мастерская</p>
+            <div class="f-1">
+                <p class="foot-1">Репродукции</p>
+                <p class="foot-2">Франция</p>
+                <p class="foot-2">Германия</p>
+                <p class="foot-2">Англия</p>
+            </div>
+            <div class="f-2">
+                <p class="foot-1">Новинки</p>
+                <p class="foot-2">2021</p>
+                <p class="foot-2">2020</p>
+            </div>
+            <div class="f-3">
+                <p class="foot-1">О нас</p>
+                <p class="foot-2">Художники</p>
+                <p class="foot-2">Менеджеры</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

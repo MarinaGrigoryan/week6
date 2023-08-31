@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            justify-items: center;
+            align-items: start;
+        }
+
+        .cell {
+            color: white;
+            background-color: salmon;
+            padding: 10px;
+        }
+
+        .cell-1 {
+            justify-self: start;
+            align-self: start;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Гриды</h1>
+    <div class="container">
+        <div class="cell cell-1">Text</div>
+        <div class="cell cell-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="cell cell-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="cell cell-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="cell cell-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="cell cell-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+
+</body>
+
+</html>
